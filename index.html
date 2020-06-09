@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>化学虚拟实验室</title>
+		<title>Chemistry Virtual Laboratory</title>
 		<meta charset="utf-8">
         <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css" />
         <link rel="stylesheet" href="libs/Flat-UI/css/flat-ui.css" />
@@ -15,14 +15,14 @@
         <div class="navbar navbar-info">
            <ul class="nav navbar-nav">
             	<li>
-                    <div class="btn btn-info" >器材<div class="arrow" ></div></div>
+                    <div class="btn btn-info" >equipment<div class="arrow" ></div></div>
                     <ul id = "equipments">
                      
                     </ul>
                     
                 </li>
                 <li>
-                    <div class="btn btn-info" >药品  <div class="arrow" ></div></div>
+                    <div class="btn btn-info" >drug  <div class="arrow" ></div></div>
                      <ul id="chemicalList">
 
                     </ul>
@@ -36,13 +36,13 @@
                     <li>
                     <div class="btn btn-info btn-sm" data-toggle="button">工具</div>
                     <ul>
-                        <li><a href="#" id="match">火柴</a>
+                        <li><a href="#" id="match">matches</a>
                         </li>
                         <li>
-                            <a href="#">温度计</a>
+                            <a href="#">thermometer</a>
                         </li>
-                        <li><a href="#">PH 试纸</a></li>
-                        <li><a href="#" id="glassBar">玻璃棒</a></li>
+                        <li><a href="#">PH Test paper</a></li>
+                        <li><a href="#" id="glassBar">Glass rod</a></li>
                     </ul> 
                     </li>
                 </ul>
@@ -52,39 +52,39 @@
             <div class="navbar navbar-info">
             <ul class="nav navbar-nav">
             	<li>
-                      <div class="btn btn-info btn-sm" data-toggle="button">重置</div>
+                      <div class="btn btn-info btn-sm" data-toggle="button">Reset</div>
                       <ul>
-                      	<li id = "resetDesk"><a href="#">桌面</a></li>
-                      	<li id = "resetCamera"><a href="#">视角</a></li>
+                      	<li id = "resetDesk"><a href="#">desktop</a></li>
+                      	<li id = "resetCamera"><a href="#">Perspective</a></li>
                       </ul>
                 </li>
                 <li>
-                    <div class="btn btn-info btn-sm" data-toggle="button">提示</div>
+                    <div class="btn btn-info btn-sm" data-toggle="button">prompt</div>
                     <ul>
-                        <li id="infoPad_show"><a href="#">显示</a></li>
-                        <li id="infoPad_filter"><a href="#">过滤</a></li>
+                        <li id="infoPad_show"><a href="#">display</a></li>
+                        <li id="infoPad_filter"><a href="#">filter</a></li>
                     </ul>
                 </li>
                 <li>
-                       <div class="btn btn-info btn-sm" data-toggle="button">设置</div>
+                       <div class="btn btn-info btn-sm" data-toggle="button">filtrate</div>
                       <ul>
                           <li>
-                            <a href="#"><label for="soundPad">声音</label>
+                            <a href="#"><label for="soundPad">sound</label>
                               <div class="switch switch-small" data-on="success" id="soundPad">
                                   <input type="checkbox" checked />
                               </div>
                             </a>
                           </li>
                         <li>
-                          <a href="#">桌布</a>
+                          <a href="#">tablecloth</a>
                           <ul>
-                            <li id="table_blue" ><a href="#">蓝色</a></li>
-                            <li id="table_travel"><a href="#">野餐</a></li>
-                            <li id="table_wow"><a href="#">山口山</a></li>
+                            <li id="table_blue" ><a href="#">blue</a></li>
+                            <li id="table_travel"><a href="#">picnic</a></li>
+                            <li id="table_wow"><a href="#">Yamaguchi</a></li>
                           </ul>  
                         </li>
 
-                        <li><a href="#"><label for="shadowPad">灯光</label>
+                        <li><a href="#"><label for="shadowPad">light</label>
                               <div class="switch switch-small" data-on="success" id="shadowPad">
                                   <input type="checkbox" checked />
                               </div>
@@ -104,7 +104,7 @@
         <div id="loading-indicator-undefined-overlay" class="loading-indicator-overlay" style="width: 100%; height: 100%; left: 0px; position: absolute; top: 0px; z-index: 5000;"></div>
         <div id="loading-indicator-undefined" class="loading-indicator" style="position: absolute; z-index: 5001; left: 50%; top: 50%;"></div>
 
-        <!-- 加载js库，发布时用mini版 -->
+        <!-- Load js library, use mini version when publishing -->
         <!--
         <script type="text/javascript" src="libs/createjs/createjs/events/Event.js"></script>
         <script type="text/javascript" src="libs/createjs/createjs/events/EventDispatcher.js"></script>
